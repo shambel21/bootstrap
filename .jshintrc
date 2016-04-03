@@ -1,0 +1,10 @@
+{
+  "undef": true,
+  "maxlen": 150,
+  "trailing": true,
+  "curly": true,
+  "node": true,
+  "unused": true,
+  "eqeqeq": true,
+  "strict": false
+}
