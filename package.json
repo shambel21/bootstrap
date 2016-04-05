@@ -11,7 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "0.8.5",
+    "body-parser": "1.15.0",
+    "ejs": "2.4.1",
     "express": "4.13.4",
+    "express-stormpath": "3.1.2",
     "passport-local": "1.0.0",
     "validator": "5.1.0"
   }

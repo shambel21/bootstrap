@@ -16,6 +16,7 @@ Notifyme
 |    |- lib
 |    |- models
 |    |- routes
+|    |- views
 |--test
 |--public
 
