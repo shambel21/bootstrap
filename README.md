@@ -43,8 +43,8 @@ Notifyme
 
 **Start the app in docker**
 
-1. build the app in terminal ` docker build -t notifyme .`
-2. run the app `docker run notifyme -p 8500:8500`
+1. from the repo main directory build the app in terminal ` docker build -t notifyme .`
+2. run the app `docker run -p 8500:8500 notifyme`
 
 **Start the app for non docker env**
 
