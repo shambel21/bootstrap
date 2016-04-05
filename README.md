@@ -36,3 +36,17 @@ Notifyme
 - `models`: The models folder contains our mongoose models, which defines the structure and logic of the models we want to manipulate and save.
 - `routes`: The routes folder contains the code for all the endpoints the API is able to serve.
 - `test`: The test folder will contain our functional tests using Mocha as well as two other node modules, `should` and `supertest`, to make it easier to aim for 100 percent coverage.
+
+
+
+## Start the application
+
+**Start the app in docker**
+
+1. build the app in terminal ` docker build -t notifyme .`
+2. run the app `docker run notifyme -p 8500:8500`
+
+**Start the app for non docker env**
+
+1. `npm install`
+2. `node app.js`
