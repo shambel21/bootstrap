@@ -18,12 +18,12 @@ Notifyme
 |    |- routes
 |    |- views
 |--test
-|--public
+|--site
 
 ```
 
 
-- `public` : the public folder has all the static files that will be use to render the web application -- such as css, image and html files
+- `site` : folder has all the static files that will be use to render the web application -- such as css, image and html files
 
 - `app.js`: It is conventional to have the main app.js file in the root directory. The app.js is the entry point of our application and will be used to launch the server.
 - package.json: As with any Node.js app, we have package.json in the root folder specifying our application name and version as well as all of our npm dependencies.
