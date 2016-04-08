@@ -50,3 +50,16 @@ Notifyme
 
 1. `npm install`
 2. `node app.js`
+
+
+## Cloud Deployment
+
+1. `aws ecr get-login --region us-east-1`
+2. Run the docker login command that was returned in the previous step.
+3. Build your Docker image using the following command. For information on building a Docker file from scratch see the instructions here. You can skip this step if your image is already built:
+`docker build -t notifyme . `
+4. After the build completes, tag your image so you can push the image to this repository:
+`docker tag notifyme:latest 669381897411.dkr.ecr.us-east-1.amazonaws.com/docker:latest`
+
+5. Run the following command to push this image to your newly created AWS repository:
+`docker push 669381897411.dkr.ecr.us-east-1.amazonaws.com/mcdocker:latest`
