@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/local/bin/npm', 'install', 'mocha' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'mocha', null ]
+6 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mocha',
+7 verbose parsed url   path: 'mocha',
+7 verbose parsed url   href: 'mocha' }
+8 silly lockFile a619da43-mocha mocha
+9 verbose lock mocha /home/maincoders/.npm/a619da43-mocha.lock
+10 silly lockFile a619da43-mocha mocha
+11 silly lockFile a619da43-mocha mocha
+12 verbose addNamed [ 'mocha', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile b9899f31-mocha mocha@
+15 verbose lock mocha@ /home/maincoders/.npm/b9899f31-mocha.lock
+16 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+17 verbose url raw mocha
+18 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+19 verbose url resolved https://registry.npmjs.org/mocha
+20 info trying registry request attempt 1 at 04:51:59
+21 http GET https://registry.npmjs.org/mocha
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 04:52:09
+24 http GET https://registry.npmjs.org/mocha
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 3 at 04:53:09
+27 http GET https://registry.npmjs.org/mocha
+28 silly lockFile b9899f31-mocha mocha@
+29 silly lockFile b9899f31-mocha mocha@
+30 error network getaddrinfo ENOTFOUND
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Linux 3.16.0-30-generic
+32 error command "/usr/bin/nodejs" "/usr/local/bin/npm" "install" "mocha"
+33 error cwd /home/maincoders/notifyme
+34 error node -v v0.10.25
+35 error npm -v 1.3.10
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
