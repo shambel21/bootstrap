@@ -1,3 +1,4 @@
+'use strict';
 var express = require('express');
 var routes = require('./src/routes');
 var body_parser = require('body-parser');
