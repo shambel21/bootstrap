@@ -5,7 +5,7 @@
   "description": "Alert notification system",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/test/*"
+    "test": "./node_modules/.bin/mocha ./test/*"
   },
   "author": "Maincoders LLC",
   "license": "ISC",

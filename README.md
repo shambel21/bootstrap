@@ -37,6 +37,9 @@ Notifyme
 - `routes`: The routes folder contains the code for all the endpoints the API is able to serve.
 - `test`: The test folder will contain our functional tests using Mocha as well as two other node modules, `should` and `supertest`, to make it easier to aim for 100 percent coverage.
 
+ How to run a test 
+ 1. first you must do npm install 
+ 2. run npm test 
 
 
 ## Start the application
