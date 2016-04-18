@@ -18,8 +18,10 @@ app.use(stormpath.init(app, {
   website: true
 }));
 
-app.get('/', routes.index);
-app.get('*', routes.index);
+app.get('/', routes.Index);
+app.get('/incidnet', routes.GetIncident);
+app.post('/incidnet', routes.AddIncident);
+app.get('*', routes.Index);
 
 app.on('stormpath.ready',
   function() {
