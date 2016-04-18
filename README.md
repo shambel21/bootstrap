@@ -60,6 +60,7 @@ how to update npm and node
 1. `npm install`
 2. `node app.js`
 
+ we use the code standared of "http://nodeguide.com/style.html"
 
 ## Cloud Deployment
 

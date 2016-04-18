@@ -1,9 +1,9 @@
 
 
 exports.Index = function(req, res) {
-	res.render('default', {
-		title: 'NotifyMe -- Home page'
-	});
+   res.render('default', {
+   title: 'NotifyMe -- Home page'
+  });
 }
 
 exports.AddIncident = function(req, res) {
@@ -12,15 +12,23 @@ exports.AddIncident = function(req, res) {
   //IncidentTitle
   //IncidentTime
   //IncidentTeamId
-
+ console.log(req.body);
+  console.log(env);
+  var body = 'From: ' + req.body.name + '\n' +
+    'IncidentDescription: ' + req.body.IncidentDescription+ '\n' +
+    'IncidentPriority: ' + req.body.IncidentPriority + '\n' +
+    'IncidentTime: ' + req.body.IncidentTime + '\n' +
+    'IncidentId: ' + req.body.IncidentId;
   //2 pass the data to NotifyAPI using POST 
-  res.render('addIncident', {
-    title: 'Inicident List'
+      res.render('addIncident', {
+      title: 'Inicident List'
   });
 }
 
 exports.GetIncident = function(req, res) {
-  res.render('admin', {
-    title: 'Incident List'
+  console.log('i am on the get Incident')
+
+      res.render('addIncident', {
+      title: 'Incident List'
   });
 }

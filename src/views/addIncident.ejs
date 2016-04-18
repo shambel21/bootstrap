@@ -6,6 +6,20 @@
 <head><% include partials/pages/header.ejs %></head>
 <body>
 <!-- create a text boxs to accept incident report -->
+<form>
+  Incident Description:<br>
+    <textarea name="about your Incident " rows="5" cols="50">
+    </textarea><br>
+  IncidentPriority:<br>
+    <input type="radio" name="levelofpriority" value="Urgent" checked> Urgent<br> 
+    <input type="radio" name="levelofpriority" value="High" checked> High<br>
+    <input type="radio" name="levelofpriority" value="Meduim"> Meduim<br>
+    <input type="radio" name="levelofpriority" value="Low"> Low<br>
+  IncidentTime:<br>
+    <input type="text" name="IncidentTime"><br>
+  IncidentId:<br>
+    <input type="text" name="IncidentId">
+</form>
 <% include partials/pages/footer.ejs %>
     <% include partials/pages/jsdefaults.ejs %>
 </body>
