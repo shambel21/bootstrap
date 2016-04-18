@@ -26,7 +26,9 @@ exports.AddIncident = function(req, res) {
 }
 
 exports.GetIncident = function(req, res) {
-      res.render('admin', {
+  console.log('i am on the get Incident')
+
+      res.render('addIncident', {
       title: 'Incident List'
   });
 }
