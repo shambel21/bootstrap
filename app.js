@@ -24,6 +24,7 @@ app.get('/incident', routes.GetIncident);
 app.post('/incident', routes.AddIncident);
 app.get('/', routes.Index);
 
+
 //app.get('*', routes.Index);
 
 //app.on('stormpath.ready',

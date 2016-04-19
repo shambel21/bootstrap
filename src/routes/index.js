@@ -18,7 +18,10 @@ exports.AddIncident = function(req, res) {
     'IncidentDescription: ' + req.body.IncidentDescription+ '\n' +
     'IncidentPriority: ' + req.body.IncidentPriority + '\n' +
     'IncidentTime: ' + req.body.IncidentTime + '\n' +
-    'IncidentId: ' + req.body.IncidentId;
+    'IncidentId: ' + req.body.IncidentId + '\n' +
+    'Incidentsubmit: ' + req.body.Incidentsubmit + '\n' +
+    'Incidentclear: ' + req.body.Incidentclear;
+
   //2 pass the data to NotifyAPI using POST 
       res.render('addIncident', {
       title: 'Inicident List'
