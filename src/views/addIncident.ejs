@@ -6,7 +6,7 @@
 <head><% include partials/pages/header.ejs %></head>
 <body>
 <!-- create a text boxs to accept incident report -->
-<form>
+<form class="form-inline">
   Incident Description:<br>
     <textarea name="about your Incident " rows="5" cols="50">
     </textarea><br>
@@ -20,9 +20,10 @@
   IncidentId:<br>
     <input type="text" name="IncidentId"><br><br>
 
-<button type="button" <h4 style="color:blue;">submit</h4></button>
+  <button type="submit" class="btn btn-primary">Submit</button>
 
-<button type="button"<h4 style="color:blue;">clear</h4></button>
+
+  <button type="submit" class="btn btn-primary">Clear</button>
 </form>
 <% include partials/pages/footer.ejs %>
     <% include partials/pages/jsdefaults.ejs %>
